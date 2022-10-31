@@ -1,0 +1,87 @@
+body {
+  background: linear-gradient(#fff, #eee) fixed;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  padding: 40px 0px 40px 0px;
+}
+
+.btn-primary {
+  background-color: rgb(0, 106, 198);
+  border-color: rgb(0, 106, 198);
+}
+
+.navbar-brand {
+  color:rgb(0, 106, 198) !important;
+  font-weight: bolder;
+}
+
+.navbar-brand strong{
+  color:rgb(0, 0, 0) !important;
+  font-weight: inherit;
+}
+
+@media (max-width: 992px) {
+  .header-bg {
+    padding: 0 0;
+  }
+}
+@media (min-width: 992px) {
+  .header-bg {
+    padding: 100px 0;
+  }
+}
+
+.my-picture img {
+  border-radius: 50%;
+  box-shadow: 0 0 400px 0px rgba(0, 0, 0, 0.2);
+  border: 8px solid white;
+  margin-bottom: 20px;
+}
+
+.main-title {
+  color:rgb(0, 106, 198) !important;
+  font-weight: bolder;
+}
+
+.main-title strong{
+  color:rgb(0, 0, 0) !important;
+  font-weight: inherit;
+}
+
+#news h3 {
+  font-size:inherit;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  background: white;
+  box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  color: rgb(0, 106, 198);
+}
+
+a:hover, a:active {
+  color: rgb(0, 106, 198);
+}
+
+#contact {
+  background:rgb(0, 106, 198);
+  color: white;
+  padding-top:30px;
+  padding-bottom:40px;
+  margin-bottom: 80px;
+  text-align:center;
+}
+
+#contact a {
+  color: white;
+}
