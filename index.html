@@ -33,9 +33,9 @@
       <li class="nav-item px-2">
         <a class="nav-link" href="#news">News</a>
       </li>
-      <li class="nav-item px-2">
+      <!-- <li class="nav-item px-2">
         <a class="nav-link" href="#drafts">Drafts</a>
-      </li>
+      </li> -->
       <li class="nav-item px-2">
         <a class="nav-link" href="#publications">Publications</a>
       </li>
@@ -103,6 +103,15 @@
       <div class="col-lg mt-4">
         <div class="card h-100">
           <div class="card-body">
+            <h5 class="card-title">Natural Number Game for Lean 4</h5>
+            <p class="card-text">We reimplemented the Natural Number Game in Lean 4 with a brand-new user interface concept</p>
+            <a href="https://adam.math.hhu.de" class="btn btn-primary">Play now! <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg mt-4">
+        <div class="card h-100">
+          <div class="card-body">
             <h5 class="card-title">Awards for My PhD Thesis</h5>
             <p class="card-text">
               My thesis won the <a href="https://www.eacsl.org/ackermann-award/">Ackermann Award</a>,
@@ -111,15 +120,6 @@
               and the <a href="https://ipa.win.tue.nl">IPA dissertation award</a>!
             </p>
             <a href="http://matryoshka.gforge.inria.fr/pubs/bentkamp_phd_thesis.pdf" class="btn btn-primary">Thesis (PDF) <i class="fas fa-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg mt-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h5 class="card-title">Zipperposition Won Trophy</h5>
-            <p class="card-text">Now for the third time in a row, Zipperposition won the higher-order division of the prover competition CASC.</p>
-            <a href="https://www.tptp.org/CASC/J11/" class="btn btn-primary">CASC website <i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -138,20 +138,14 @@
 <!-- News End -->
 
 <!-- Drafts Start -->
-<section class="section" id="drafts">
+<!-- <section class="section" id="drafts">
   <div class="container">
 <h2>Drafts:</h2>
 
-<p>
-  <b>Finding mathematical proofs using computers</b>
-  <br>Alexander Bentkamp, Jasmin Blanchette.
-  <br>
-  <font size="2"> 
-    <a href="https://nekoka-project.github.io//pubs/computers.pdf">Draft paper (PDF)</a>
-  </font>
+
 
 </div>
-</section>
+</section> -->
 
 <!-- Publications Start -->
 <section class="section" id="publications">
@@ -159,20 +153,34 @@
 <h2>Publications:</h2>
 
     <p>
-      <b>Verified Reductions for Optimization</b>
-      <br>Alexander Bentkamp, Ramon Fernández Mir, Jeremy Avigad.
-      <br>Accepted at the International Conference on Tools and Algorithms for the Construction and Analysis of Systems <i>(TACAS 2023)</i>.
+      <b>Finding mathematical proofs using computers</b>
+      <br>Alexander Bentkamp, Jasmin Blanchette.
+      <br> <i>Nieuw Archief voor Wiskunde</i> 5/24(2): 114–118, 2023
       <br>
       <font size="2"> 
+        <a href="pubs/finding_mathematical.pdf">Publisher's PDF</a> &sdot;
+        <a href="https://nekoka-project.github.io//pubs/computers.pdf">Preprint (PDF)</a>
+      </font>
+
+    <p>
+      <b>Verified Reductions for Optimization</b>
+      <br>Alexander Bentkamp, Ramon Fernández Mir, Jeremy Avigad.
+      <br>In: Sankaranarayanan, S., Sharygina, N. (eds.) <i>Tools and Algorithms for the Construction and Analysis of Systems (TACAS 2023)</i>, LNCS, Springer.
+      <br>
+      <font size="2"> 
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-30820-8_8">Publisher's page</a> &sdot;
         <a href="pubs/verified_optimization.pdf">Preprint (PDF)</a>
       </font>
 
     <p>
       <b>HHLPy: Practical Verification of Hybrid Systems using Hoare Logic</b>
       <br>Huanhuan Sheng, Alexander Bentkamp, Bohua Zhan.
-      <br>Accepted at the <i>International Symposium on Formal Methods 2023</i>.
+      <br>
+      In: Chechik, M., Katoen, JP., Leucker, M. (eds.) <i>Formal Methods (FM 2023)</i>, 
+      LNCS, Springer.
       <br>
       <font size="2"> 
+        <a href="https://link.springer.com/chapter/10.1007/978-3-031-27481-7_11">Publisher's page</a> &sdot;
         <a href="pubs/hhlpy.pdf">Preprint (PDF)</a>
       </font>
 
@@ -200,7 +208,7 @@
     <p>
       <b>An Impossible Asylum</b>
       <br>Jeremy Avigad, Seulkee Baek, Alexander Bentkamp, Marĳn Heule, and Wojciech Nawrocki.
-      <br>Accepted at <i>The American Mathematical Monthly</i>.
+      <br><i>The American Mathematical Monthly</i>, 130:5, 446-453
       <br>
       <font size="2">
         <a href="https://doi.org/10.1080/00029890.2023.2176668">Publisher's page</a> &sdot;
@@ -210,14 +218,16 @@
     <p>
       <b>Mechanical Mathematicians</b>
       <br>Alexander Bentkamp, Jasmin Blanchette, Visa Nummelin, Sophie Tourret, Petar Vukmirović, and Uwe Waldmann.
-      <br>Accepted at the <i>Communications of the ACM</i>.
+      <br><i>Communications of the ACM</i> <b>66</b>(4): 80–90, 2023
       <br><font size="2"><a href="http://matryoshka.gforge.inria.fr/pubs/mechanical.pdf">Preprint (PDF)</a></font>
   
 
     <p>
       <b>Verified Optimization (work in progress)</b>
-      <br>Alexander Bentkamp and Jeremy Avigad. 
-      Accepted at the <i>Workshop on Formal Mathematics for Mathematicians (FMM 2021)</i>.
+      <br>Alexander Bentkamp and Jeremy Avigad.
+      <br>
+      In Blanchette, J., Naumowicz, A. (eds.) <i>Fifth Workshop on  Formal Mathematics for Mathematicians (FMM 2021)</i>, 
+      CEUR Workshop Proceedings (CEUR-WS.org).
       <br>
       <font size="2"> 
         <a href="https://arxiv.org/pdf/2111.06807.pdf">Preprint (PDF)</a>
